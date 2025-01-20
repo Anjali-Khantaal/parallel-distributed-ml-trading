@@ -15,19 +15,20 @@ Using tools like Apache Spark, Dask, or Ray, the project highlights how distribu
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Project Structure
-├── data/
-│   ├── historical_prices.csv     # Raw or cleaned market data
-├── notebooks/
-│   ├── 1_data_preparation.ipynb  # Data preparation
-│   ├── 2_distributed_training.ipynb # Distributed model training
-│   └── 3_backtesting_and_evaluation.ipynb # Backtesting and evaluation
-├── src/
-│   ├── data_loader.py            # Data ingestion scripts
-│   ├── distributed_training.py   # Model training with parallel frameworks
-│   ├── trading_strategy.py       # Trading logic and signal generation
-│   └── utils.py                  # Helper functions and utilities
-├── requirements.txt              # List of dependencies
-├── Dockerfile                    # (Optional) Container setup
-├── README.md                     # Project documentation
-└── LICENSE                       # Open-source license
+
+- **`data/`**: Contains raw or prepared datasets, including historical price data (e.g., `historical_prices.csv`).
+- **`notebooks/`**: Jupyter Notebooks demonstrating the workflow:
+  - `1_data_preparation.ipynb`: Data ingestion, cleaning, and feature engineering.
+  - `2_distributed_training.ipynb`: Distributed model training using frameworks like Dask or Spark.
+  - `3_backtesting_and_evaluation.ipynb`: Simulating trades and evaluating strategy performance.
+- **`src/`**: Python scripts for core functionality:
+  - `data_loader.py`: Loads data for processing and analysis.
+  - `distributed_training.py`: Implements distributed model training.
+  - `trading_strategy.py`: Defines trading logic and generates buy/sell signals.
+  - `utils.py`: Contains utility functions to support other modules.
+- **`requirements.txt`**: Lists the Python dependencies required to run the project.
+- **`Dockerfile`**: (Optional) Enables containerization for reproducibility and ease of deployment.
+- **`README.md`**: Project documentation (this file).
+- **`LICENSE`**: Specifies the open-source license for the repository.
+
 
