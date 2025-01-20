@@ -14,7 +14,7 @@ Using tools like Apache Spark, Dask, or Ray, the project highlights how distribu
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Project Structure
+# Project Structure
 
 - **`data/`**: Contains raw or prepared datasets, including historical price data (e.g., `historical_prices.csv`).
 - **`notebooks/`**: Jupyter Notebooks demonstrating the workflow:
@@ -27,8 +27,32 @@ Using tools like Apache Spark, Dask, or Ray, the project highlights how distribu
   - `trading_strategy.py`: Defines trading logic and generates buy/sell signals.
   - `utils.py`: Contains utility functions to support other modules.
 - **`requirements.txt`**: Lists the Python dependencies required to run the project.
-- **`Dockerfile`**: (Optional) Enables containerization for reproducibility and ease of deployment.
 - **`README.md`**: Project documentation (this file).
 - **`LICENSE`**: Specifies the open-source license for the repository.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Getting Started
+
+## Prerequisites
+- Python: Ensure Python 3.8+ is installed.
+- Libraries: Install dependencies using the provided requirements.txt.
+
+## Installation
+1. Clone the repository
+   ```
+   git clone https://github.com/your-username/parallel-distributed-ml-trading.git
+   cd parallel-distributed-ml-trading
+   
+2. Set up a virtual environment
+   ```
+   python -m venv venv
+   source venv/bin/activate
+   
+3. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   
+   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
