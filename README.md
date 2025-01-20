@@ -18,9 +18,9 @@ Using tools like Dask, Yahoo Finance, the project highlights how distributed com
 
 - **`data/`**: Contains raw or prepared datasets, including historical price data (e.g., `historical_prices.csv`).
 - **`notebooks/`**: Jupyter Notebooks demonstrating the workflow:
-  - `1_data_preparation.ipynb`: Data ingestion, cleaning, and feature engineering.
-  - `2_distributed_training.ipynb`: Distributed model training using frameworks like Dask or Spark.
-  - `3_backtesting_and_evaluation.ipynb`: Simulating trades and evaluating strategy performance.
+  - `data_preparation.ipynb`: Data ingestion, cleaning, and feature engineering.
+  - `distributed_training.ipynb`: Distributed model training using frameworks like Dask or Spark.
+  - `backtesting_and_evaluation.ipynb`: Simulating trades and evaluating strategy performance.
 - **`src/`**: Python scripts for core functionality:
   - `data_loader.py`: Loads data for processing and analysis.
   - `distributed_training.py`: Implements distributed model training.
