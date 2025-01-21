@@ -55,16 +55,16 @@ Using tools like Dask, Yahoo Finance, the project highlights how distributed com
 # More About The Repository And The Process
 
 **Step 1: Data Preparation**
-- The Jupyter Notebook: `otebooks/1_data_preparation.ipynb` does the following:
+- The Jupyter Notebook: `otebooks/data_preparation.ipynb` does the following:
   -- Load historical price data from the data/ folder.
   -- Clean data, handle missing values, and generate technical indicators.
   
 **Step 2: Distributed Model Training**
-- The Jupyter Notebook: `notebooks/2_distributed_training.ipynb` does the following:
+- The Jupyter Notebook: `notebooks/distributed_training.ipynb` does the following:
   -- Train a machine learning model using distributed computing frameworks.
 
 **Step 3: Backtesting and Evaluation**
-- The Jupyter Notebook: `notebooks/3_backtesting_and_evaluation.ipynb` does the following:
+- The Jupyter Notebook: `notebooks/backtesting_and_evaluation.ipynb` does the following:
   -- Use model predictions to simulate trades.
   -- Evaluate performance with:
     -- Cumulative returns: 
