@@ -55,7 +55,7 @@ Using tools like Dask, Yahoo Finance, the project highlights how distributed com
 # More About The Repository And The Process
 
 **Step 1: Data Preparation**
-- The Jupyter Notebook: `otebooks/data_preparation.ipynb` does the following:
+- The Jupyter Notebook: `notebooks/data_preparation.ipynb` does the following:
   -- Load historical price data from the data/ folder.
   -- Clean data, handle missing values, and generate technical indicators.
   
